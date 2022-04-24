@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+p {
+  margin: auto;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+nav {
+  background: #f68b1c;
+  position: relative;
+  width: 100%;
+  height: 7vh;
+}
+.container {
+  width: 75%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navl {
+  width: 40%;
+  display: flex;
+}
+.slika1 {
+  width: 20%;
+  margin-right: 0px;
+  height: 100%;
+}
+.features {
+  margin: 10px;
+  width: 20%;
+  height: 100%;
+  font-size: 20px;
+  color: white;
+}
+.navr {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 60%;
+  border: 1px transparent;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #acc034;
+}
+.lupa {
+  color: white;
+  font-size: 20px;
+  width: 10%;
+  margin-top: 13px;
+}
+.sajt {
+  background-image: url(https://www.signupgenius.com/images/login/login-background.jpg);
+  width: 100%;
+  height: 90%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.naslov {
+  width: 100%;
+}
+h1 {
+  margin-left: 250px;
+  margin-bottom: 30px;
+  display: inline-block;
+  font-size: 50px;
+}
+input {
+  width: 50vh;
+  height: 40px;
+}
+.forme {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 20px;
+  padding: 30px;
+}
+.margintop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.marginleft {
+  margin-left: 111px;
+  width: 79%;
+  margin-bottom: 20px;
+}
+.labelizuzetak {
+  padding-right: 0px;
+}
+.izuzetak2 {
+  height: 15px;
+  width: 40px;
+  margin-left: 100px;
+}
